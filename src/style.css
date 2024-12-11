@@ -28,6 +28,15 @@ body {
     color: #333;
 } 
 button { margin-top: 3px; 
+    background-color: brown;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+.close1 { margin-top: 10px; 
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5px;
 }
 img{
     width: 40%; height: 40%;
@@ -36,4 +45,10 @@ img{
     display: none;
     /* display: flex; */
     /* justify-content: center; */
+    }
+    .close1{
+        display: none;
+    }
+    #header{
+        background-color: blue;
     }

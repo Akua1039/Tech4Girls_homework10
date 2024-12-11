@@ -35,19 +35,25 @@ function openimage (){
 let img1= document.querySelector(".image");
 img1.style.display = "block";
 img1.style.margin = "0 auto";
-}
 
+let close = document.querySelector(".close1");
+close.style.display = "block";
+close.style.margin = "0 auto";
+}
 
 let button = document.querySelector("#button");
 button.addEventListener("click", openimage);
 
 function closeimage (){
-    let img1= document.querySelector(".image");
-    img1.style.display = "block";
-    img1.style.margin = "0 auto";
+    let img2= document.querySelector(".image");
+    img2.style.display = "none";
+    img2.style.margin = "0 auto";
 
-    let close = document.querySelector(".close");
-    close.addEventListener("click", closeimage);
-    }
+    let close = document.querySelector(".close1");
+    close.style.display = "none"
+}
+let close = document.getElementById("close");
+close.addEventListener("click", closeimage);
+    
     
    
