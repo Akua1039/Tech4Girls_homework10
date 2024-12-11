@@ -1,0 +1,23 @@
+let 
+
+body { font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333; 
+}
+
+.num{
+ background-color: brown; 
+ color: whitesmoke;
+ padding: 15px;
+ margin: 15px auto;
+ border-radius: 5px;
+ display: flex;
+ width: 50%;
+
+}
+h2{
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+   
+}
